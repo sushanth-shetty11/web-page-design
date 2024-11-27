@@ -1,0 +1,195 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background: #1f1f2e;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f4f4f4;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #f4f4f4;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #1f1f2e, #3b3c4f);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #d35400;
+}
+
+/* Services Section */
+.services {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+/* Ratings Section */
+.ratings {
+    background: #3b3c4f;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.ratings textarea {
+    width: 80%;
+    max-width: 500px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.ratings .btn {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    background: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact .btn {
+    background: #f39c12;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background: #1f1f2e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
